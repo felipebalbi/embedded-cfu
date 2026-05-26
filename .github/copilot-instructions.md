@@ -1,5 +1,14 @@
 # Copilot Instructions
 
+> **See also: [`AGENTS.md`](../AGENTS.md)** at the repository root for the full
+> operational guide for AI agents working in this crate — repo layout, module
+> map, feature/MSRV constraints, the exact `cargo` commands CI runs, coding
+> conventions (no `unsafe`, no panicking constructs, `no_std`-only), and the
+> fork/branch/push workflow. The rules in this file (commit-message format
+> and AI attribution) remain authoritative; `AGENTS.md` expands on everything
+> else.
+
+
 ## Commit Messages
 - Subject line: capitalized, 50 characters or less, imperative mood (e.g., "Fix bug" not "Fixed bug")
 - Separate subject from body with a blank line
